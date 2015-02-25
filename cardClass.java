@@ -1,3 +1,4 @@
+//CLASS NOT FUNCTIONAL YET
 /*Guneet Singh Chadha
  * Group 404
  * cardClass
