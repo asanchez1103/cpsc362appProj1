@@ -1,4 +1,3 @@
-//CLASS NOT FUNCTIONAL YET
 /*Guneet Singh Chadha
  * Group 404
  * cardClass
@@ -18,10 +17,10 @@
  * 
  * 
  */
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-
 //found parsing class, need to implement into cardClass. Site: http://www.javapractices.com/topic/TopicAction.do?Id=87
 import java.io.IOException;
 import java.nio.file.Path;
@@ -32,34 +31,72 @@ public class cardClass {
 	int cardID;//Each Card will be given an ID upon being entered.
 	String cardName;//Green Card: Adjective. Red Card: Proper Noun
 	String cardInfo;//Green Card: Synonyms of adjective. Red Card: Description of Proper Noun.
-	int cardHolder;//Location of Card. 0 = Deck. 1-8 = Player # 1-8. 9 = Discard Pile(Red Cards only). 10 = On table(Green Cards and current round's Red Cards).
-	boolean cardVisible;//When on table, card may exist, but will not be seen. 
+	int cardHolder;//Location of Card. 0 = Deck. 1-8 = Player # 1-8. 9 = Discard Pile(Red Cards only). 10 = On table(Green Cards only).
 	
-	cardClass[] redCards = new cardClass[757];//Change number according to lines/proper nouns in redApples.txt
-	cardClass[] greenCards = new cardClass[249];//Change number according to lines/adjectives in greenApples.txt
+	public static cardClass[] redCards = new cardClass[757];//Change number according to lines/proper nouns in redApples.txt
+	public static cardClass[] greenCards = new cardClass[249];//Change number according to lines/adjectives in greenApples.txt
 	
-	
-	
-	public  void main(String[] args) throws Throwable{
+
+	 public static void main(String[] Args) throws  IOException {
+		 
+		 String redFileName = "C:\\Users\\Guneet Singh Chadha\\Desktop\\CS Stuff\\cs362\\redApples.txt";//Modify based on location
+		 String greenFileName = "C:\\Users\\Guneet Singh Chadha\\Desktop\\CS Stuff\\cs362\\greenApples.txt";//Modify based on location
+		 
+		 for(int i=0;i<redCards.length;i++){//Give cards starting info to prevent NullPointerException ?
+			 redCards[i].cardID = i;
+			 redCards[i].cardName = "";
+			 redCards[i].cardInfo = "";
+			 redCards[i].cardHolder = 0;
+		 }
+		 for(int j =0; j<greenCards.length;j++){
+			 greenCards[j].cardID = j;
+			 greenCards[j].cardName = "";
+			 greenCards[j].cardInfo = "";
+			 greenCards[j].cardHolder = 0;
+		 }
+		 redCards = processLineByLine(redCards,redFileName);
+		 greenCards = processLineByLine(greenCards,greenFileName);
+		    
+		    for(int m = 0; m<757; m++){
+		    	System.out.println(redCards[m].cardID + "\t" + redCards[m].cardName + redCards[m].cardInfo);
+		    }
+		    for(int n = 0; n<249; n++){
+		    	System.out.println(greenCards[n].cardID + "\t" + greenCards[n].cardName + greenCards[n].cardInfo);
+		    }
+		    
+	 }
+		  
+
+	 public  static cardClass[] processLineByLine(cardClass[] deckCards, String aFileName) throws IOException {
+		 
+		 Path fFilePath = Paths.get(aFileName);
+		 int currentCard = 0;
+		 
+		 try (Scanner scanner =  new Scanner(fFilePath)){
+			 while (scanner.hasNextLine()){
+		    	  String cardWord = "";
+		    	  String cardDesc = "";
+		    	  String newLine = scanner.nextLine();
+		    	  Scanner newLineScan = new Scanner(newLine);
+		    	  scanner.useDelimiter(" - ");// " - " seperates keyword(s) from info.
+		    	  
+		    	  if (newLineScan.hasNext()){
+		    		  cardWord = scanner.next();
+		   		      cardDesc = scanner.next();
+		   		  //deckCards[currentCard].cardID = currentCard;    
+		    	  deckCards[currentCard].cardName = cardWord;
+		    	  deckCards[currentCard].cardInfo = cardDesc;
+		    	  //deckCards[currentCard].cardHolder = 0;
+		    	  currentCard++;
+		    	  
+		    	  }
+		      }
+		    } 
+		    
+		    return deckCards;
+		    
+		  }
+		    
 		
-		String redFile = "redApples.txt";
-		String greenFile = "greenApples.txt";
-		
-		redCards = getCards(redFile, redCards);
-	
-	System.out.println("Hello everyone!");
 }
-	
-	cardClass[] getCards(String fileName,cardClass[] deckCards) throws Throwable{
-		
-		fFilePath = 
-		
-		File redFile = new File("redApples.txt");
-		FileInputStream redStream = new FileInputStream(redFile);
-		
-		
-		redStream.close();
-		
-		return deckCards;
-	}
-}
+
