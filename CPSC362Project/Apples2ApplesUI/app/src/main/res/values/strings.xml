@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Apples2ApplesUI</string>
+    <string name="hello_world">Hello world! Check apples 2 applesd buwahaha</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_card_board">CardBoard</string>
+
+</resources>
