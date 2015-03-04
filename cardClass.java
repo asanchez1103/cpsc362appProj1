@@ -32,42 +32,11 @@ public class cardClass {
 	String cardName;//Green Card: Adjective. Red Card: Proper Noun
 	String cardInfo;//Green Card: Synonyms of adjective. Red Card: Description of Proper Noun.
 	int cardHolder;//Location of Card. 0 = Deck. 1-8 = Player # 1-8. 9 = Discard Pile(Red Cards only). 10 = On table(Green Cards only).
-	
-	public static cardClass[] redCards = new cardClass[757];//Change number according to lines/proper nouns in redApples.txt
-	public static cardClass[] greenCards = new cardClass[249];//Change number according to lines/adjectives in greenApples.txt
+	boolean faceUp;//Is card face up or facedown? True= Face up, visible to players. False = Facedown, not visible to players.
 	
 
-	 public static void main(String[] Args) throws  IOException {
-		 
-		 String redFileName = "C:\\Users\\Guneet Singh Chadha\\Desktop\\CS Stuff\\cs362\\redApples.txt";//Modify based on location
-		 String greenFileName = "C:\\Users\\Guneet Singh Chadha\\Desktop\\CS Stuff\\cs362\\greenApples.txt";//Modify based on location
-		 
-		 for(int i=0;i<redCards.length;i++){//Give cards starting info to prevent NullPointerException ?
-			 redCards[i].cardID = i;
-			 redCards[i].cardName = "";
-			 redCards[i].cardInfo = "";
-			 redCards[i].cardHolder = 0;
-		 }
-		 for(int j =0; j<greenCards.length;j++){
-			 greenCards[j].cardID = j;
-			 greenCards[j].cardName = "";
-			 greenCards[j].cardInfo = "";
-			 greenCards[j].cardHolder = 0;
-		 }
-		 redCards = processLineByLine(redCards,redFileName);
-		 greenCards = processLineByLine(greenCards,greenFileName);
-		    
-		    for(int m = 0; m<757; m++){
-		    	System.out.println(redCards[m].cardID + "\t" + redCards[m].cardName + redCards[m].cardInfo);
-		    }
-		    for(int n = 0; n<249; n++){
-		    	System.out.println(greenCards[n].cardID + "\t" + greenCards[n].cardName + greenCards[n].cardInfo);
-		    }
-		    
-	 }
-		  
 
-	 public  static cardClass[] processLineByLine(cardClass[] deckCards, String aFileName) throws IOException {
+	 public static  cardClass[] processLineByLine(cardClass[] deckCards, String aFileName) throws IOException {
 		 
 		 Path fFilePath = Paths.get(aFileName);
 		 int currentCard = 0;
@@ -83,11 +52,12 @@ public class cardClass {
 		    	  if (newLineScan.hasNext()){
 		    		  cardWord = scanner.next();
 		   		      cardDesc = scanner.next();
-		   		  //deckCards[currentCard].cardID = currentCard;    
-		    	  deckCards[currentCard].cardName = cardWord;
-		    	  deckCards[currentCard].cardInfo = cardDesc;
-		    	  //deckCards[currentCard].cardHolder = 0;
-		    	  currentCard++;
+		   		      deckCards[currentCard].cardID = currentCard;
+		   		      deckCards[currentCard].cardName = cardWord;
+		   		      deckCards[currentCard].cardInfo = cardDesc;
+		   		      deckCards[currentCard].cardHolder = 0;
+		   		      deckCards[currentCard].faceUp = false;
+		   		      currentCard++;
 		    	  
 		    	  }
 		      }
@@ -95,8 +65,10 @@ public class cardClass {
 		    
 		    return deckCards;
 		    
-		  }
-		    
+	 }
+	 
+    
 		
 }
+
 
