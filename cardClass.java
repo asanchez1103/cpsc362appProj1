@@ -17,7 +17,7 @@
  * 
  * 
  */
-
+/* these imports should be in main class
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -26,6 +26,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
+*/
 public class cardClass {
 	
 	int cardID;//Each Card will be given an ID upon being entered.
@@ -34,8 +35,33 @@ public class cardClass {
 	int cardHolder;//Location of Card. 0 = Deck. 1-8 = Player # 1-8. 9 = Discard Pile(Red Cards only). 10 = On table(Green Cards only).
 	boolean faceUp;//Is card face up or facedown? True= Face up, visible to players. False = Facedown, not visible to players.
 	
+	public cardClass(int startId, String theName, String theInfo, int theHolder, boolean pubYet){
+        
+            cardID = startId;
+            cardName = theName;
+            cardInfo = theInfo;
+            cardHolder = theHolder;
+            faceUp = pubYet;
+                    
+        }
+        public void setID(int newID){
+            cardID = newID;
+        }
+        public void setName(String newName){
+            cardName = newName;
+        }
+        public void setInfo(String newInfo){
+            cardInfo = newInfo;
+        }
+        public void setHolder(int newHolder){
+            cardHolder = newHolder;
+        }
+        public void setFlip(boolean flipIt){
+            faceUp = flipIt;
+        }
 
-
+	/*this should be in the main class
+	
 	 public static  cardClass[] processLineByLine(cardClass[] deckCards, String aFileName) throws IOException {
 		 
 		 Path fFilePath = Paths.get(aFileName);
@@ -66,7 +92,7 @@ public class cardClass {
 		    return deckCards;
 		    
 	 }
-	 
+	 */
     
 		
 }
