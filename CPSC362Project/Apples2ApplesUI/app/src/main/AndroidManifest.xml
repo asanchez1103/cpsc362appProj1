@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CardBoard"
-            android:label="@string/title_activity_card_board" >
+            android:name="CardFlipActivity"
+            android:label="CardFlipActivity" >
         </activity>
     </application>
 

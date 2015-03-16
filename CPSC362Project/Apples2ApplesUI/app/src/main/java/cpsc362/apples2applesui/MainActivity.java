@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, CardBoard.class);
+        Intent intent = new Intent(this, CardFlipActivity.class);
         startActivity(intent);
     }
 
