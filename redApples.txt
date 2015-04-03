@@ -301,6 +301,7 @@ Hand Grenades :: Close only counts in horseshoes and hand grenades!
 Handcuffs :: "You have the right to remain silent..."
 Handguns :: Source of a never-ending controversy as to how to get them out of the hands of the bad guys and into the hands of the good guys.
 Hangnails :: We've fingered the cause of the pain.
+Harry Potter :: Popular Fictional character from the book series by JK Rowling. "You're a wizard, Harry."
 Having A Baby :: "Rock-a-bye baby, on the tree top ..." Who would put a kid on a tree top?
 Having An Operation :: What a cutup! A real stitch.
 Hawaii :: The eight islands that make up America's 50th state entered the Union on August 21, 1959.
@@ -312,6 +313,7 @@ Hillary Rodham Clinton :: 1947- , New York Senator, lawyer, and former American 
 Hiroshima :: 1945 - "I am become death, the destroyer of worlds" - J. Robert Oppenheimer, on the detonation of the first atomic bomb.
 HMOs :: Health Maintenance Organizations. Here's to your health ...
 Hockey :: Did you hear about the big fight last night? All of a sudden, a hockey game broke out!
+Hogwarts :: School of witchcraft and wizardry in the Harry Potter Series. Don't go to the third floor corridor.
 Hollywood :: Motion picture and television industry center of the world. Hooray for Hollywood!
 Homeless Shelters :: In the United States, nearly three-quarters of the help for the homeless comes from the private sector, mostly from church soup kitchens.
 Homer Simpson :: Fictional cartoon character created by Matt Groening. D'oh!
@@ -377,6 +379,7 @@ Lawyers :: We'd throw some joke in here, but we're afraid of getting sued.
 Leaf Blowers :: Toro, Toro, Toro!
 Leather :: Animal hide. Leather you like it or not.
 Leeches :: Any mention of lawyers, agents, or reporters would be FAR too easy ...
+Legos :: The real building blocks of childhood. Just don't step on them.
 Lemons :: When life gives you lemons, make lemonade ... or, in the case of a car, take it back. There's a law, you know!
 Lenin's Tomb :: We'd love to visit Lenin's Tomb, but it's probably just another communist plot.
 Leonardo Da Vinci :: 1452-1519, Florentine artist, sculptor, architect, engineer, scientist, and all-around smartypants.
@@ -488,6 +491,7 @@ Paris, France :: The governmental, cultural and gastronomic capital of France. O
 Paying Bills :: Also known as "Debt Restructuring."
 Paying Taxes :: Death or Taxes? Do we have to choose right away?
 Penguins :: Flightless, aquatic birds that reside in the Southern Hemisphere. All dressed up and no place to go.
+Percy Jackson and the Olympians :: Popular book series by Rick Riordan about a demigod who loves to tick off the Greek Gods.
 Picking Your Nose :: Noses run in our family.
 Pigeons :: Birds with small heads, short necks, stout bodies, and an incredible attraction to statues.
 Pigs :: Domesticated mammal of the swine family. Thaaa ... thaaa ... that's all, folks!
@@ -601,6 +605,7 @@ Spongebob Squarepants :: Anthropomorphic sponge living underwater. Currently res
 Spontaneous Combustion :: The ignition of substances without application of an external heat source. A good plot for "The X-Files."
 Sport Utility Vehicles :: Need new tires?
 Sports Channels :: Any team, any time.
+Starbucks :: Popular coffee and drink chain with cup-size names that don't make sense. Why is the small one Tall?
 Star Fruit :: Looks like plastic, tastes like lemons.
 Starry Night :: A sky bright with stars, a classic Van Gogh painting, and a Don McLean song. Three cards in one!
 State Fair :: Aw, gee whiz, a blue ribbon for Bessie!
@@ -661,6 +666,7 @@ The Great Chicago Fire :: The noteworthy fire of 1871 ... a hot time in the old 
 The Great Depression :: Prozac was invented six decades too late.
 The Green Bay Packers :: Twelve time National Football League world champions, beloved by "Cheeseheads" everywhere. Are those brats done yet?
 The Gulf War :: January-February, 1991. This six week conflict with Iraq was also known as "Desert Storm."
+The Hunger Games :: Popular book series by Suzanne Collins. "May the odds be ever in your favor."
 The Indy 500 :: Contestants must drive the full 500 miles. Bathroom breaks ARE allowed.
 The Internet :: Computer-based worldwide information network, and global shopping market.
 The IRS :: The Internal Revenue Service: agency of the U.S. Department of the Treasury responsible for collecting taxes. A human audity.
@@ -694,6 +700,7 @@ The Super Bowl :: Who needs another national holiday?
 The Supreme Court :: The highest court in the United States. Robes, but no wigs.
 The Three Tenors :: Opera stars Placido Domingo, Jose Carreras, and Luciano Pavarotti began recording as The Three Tenors in 1990.
 The Titanic :: It sank in 1912. Get over it!
+The Twilight Zone :: Imagine if you will, a world in which you win a green card. That is, The Twilight Zone.
 The Universe :: Everything. The big "It." Huge. Massive. THAT big.
 The Vatican :: The Papal State in the middle of Rome. Home of the Pope, Swiss Guards, and lots of pigeons.
 The Vietnam Memorial :: "The Wall," built in 1982, was designed by 21-year-old architecture student, Maya Lin.
@@ -719,11 +726,12 @@ Trailer Parks :: Also known as tornado magnets.
 Trampolines :: Trampolines have been used in circuses wince the 18th century. Despite slumps in popularity, they always seem to bounce back!
 Tree Huggers :: "Environmentalists" to the left. "Wackos" to the right.
 Truck Stops :: Breakfast 24 hours a day and you're on your way.
+Twilight :: Book and Film Series involving love, vampires, and werewolves. 
 Tyrannosaurus Rex :: Large carnivorous dinosaur of the latter part of the Mesozoic era. My, what big teeth you have!
 Underwear :: "Let's keep this brief."
 United Nations :: The U.N. was founded in 1945, after World War II ended. Its mission is to maintain world peace. If we ever achieve it, that is ...
 Vacations :: "Vacation, all I ever wanted, Vacation, had to get away ..." -Go-Go's
-Valve :: Video game company, best known for the Half-life and Portal series, as well as its digital download store, Steam. Still waiting for Half-life 3.
+Valve :: Video game company, best known for the Half-life and Portal series, as well as its digital download store, Steam. We're Still waiting for Half-life 3.
 Vampires :: Legendary bloodsucking monsters.
 Victorian England :: An era characterized by moral severity and pompous conservatism.
 Video Games :: Just how DO you get to the thirteenth level of "Doom"?
