@@ -14,21 +14,11 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="200dp"
-        android:id="@+id/imageView3"
-        android:layout_marginLeft="81dp"
-        android:layout_marginStart="81dp"
-        android:layout_marginTop="45dp"
-        android:src="#ff060606"
-        android:layout_below="@+id/textView2" />
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="200dp"
         android:id="@+id/imageView2"
         android:layout_marginTop="51dp"
         android:src="#ff060606"
-        android:layout_below="@+id/imageView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2" />
 
 </RelativeLayout>

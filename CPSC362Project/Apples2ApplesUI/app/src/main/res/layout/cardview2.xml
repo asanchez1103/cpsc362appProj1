@@ -1,0 +1,6 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300px"
+    android:layout_height="500px"
+    android:src="@drawable/logo"
+    android:scaleType="centerCrop"
+    android:contentDescription="This is the temp logo" />
